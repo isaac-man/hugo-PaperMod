@@ -34,6 +34,10 @@
 }
 
 .post-entry {
+    display: flex; /* 横並びにする */
+    /* align-items: flex-start; */
+    align-items: center;
+    gap: 20px; /* 左右要素の間隔を追加 */
     position: relative;
     margin-bottom: var(--gap);
     padding: var(--gap);
